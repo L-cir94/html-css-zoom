@@ -30,10 +30,12 @@ justify-content: center;
 }*/
 body {
     background-color: black;
+
 }
 
 #app-main {
     margin-top: 100px;
+
 }
 
 .container {
@@ -41,9 +43,10 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-
+    position: relative;
     margin: auto;
-    z-index: 1;
+    z-index: 0;
+    margin-bottom: 100px;
 }
 
 #ico {
@@ -95,31 +98,67 @@ footer {
     background-color: rgb(66, 66, 66);
     height: 80px;
     width: 100%;
+
 }
 
 .nav-footer {
     height: 100%;
-    border: dashed;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.left-menu{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-flex-grow: 1;
-margin-left: 5px;
-}
-.main-menu{
-    flex-grow: 4;
-}
-.exit{
+
+.left-menu {
+    display: flex;
+    justify-content: flex-start;
     flex-grow: 1;
+    margin-left: 5px;
+    gap: 5px;
 }
-.arrow-up{
+
+.main-menu {
+    flex-grow: 7;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 5px;
+    gap: 5px;
+}
+
+.exit {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 5px;
+    gap: 5px;
+}
+
+.arrow-up {
     color: white;
     display: flex;
     left: 50px;
     align-items: center;
+}
+
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.symbol {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.view-setting {
+    position: absolute;
+    background-color: aqua;
+    height: 50px;
+    width: 200px;
+    top: 0;
+    right: 0;
 }
