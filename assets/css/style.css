@@ -28,40 +28,50 @@
     background-color: aquamarine;
 justify-content: center;
 }*/
-
 .container {
-    position: relative;
-    top: 100px;
-    width: 80%;
+    display: flex;
+    align-items: center;
+    width: 100%;
     max-width: 1152px;
     margin: auto;
-
+    z-index: 1;
 }
+#ico{
+    margin: 4px;
+}
+body {}
 
 .row {
-padding: 2rem;
+width: 100%;
     display: flex;
-    background-color: brown;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-
 }
-.webcam{
-    display: flex;
 
+.webcam {
+    display: flex;
     align-items: center;
     width: 200px;
     height: 100px;
 }
-img{
+
+img {
     width: 100%;
-    padding: 1rem;
-    position:
+    padding: 0.1rem;
+
+}
+
+.microfono {
+    background-color: rgba(75, 75, 75, 0.734);
+    position: absolute;
+    bottom: 2px;
+    left: 1px;
+}
+span{
+    color: white;
 }
 .col-7 {
     display: flex;
     justify-content: center;
-    width: calc (100% / 12 * );
-    padding:
-    flex-grow: 2;
+    position: relative;
 }
