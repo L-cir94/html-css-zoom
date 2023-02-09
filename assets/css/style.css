@@ -28,21 +28,32 @@
     background-color: aquamarine;
 justify-content: center;
 }*/
+body {
+    background-color: black;
+}
+
+#app-main {
+    margin-top: 100px;
+}
+
 .container {
+
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 1152px;
+
     margin: auto;
     z-index: 1;
 }
-#ico{
+
+#ico {
     margin: 4px;
 }
+
 body {}
 
 .row {
-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -67,11 +78,48 @@ img {
     bottom: 2px;
     left: 1px;
 }
-span{
+
+span {
     color: white;
 }
+
 .col-7 {
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(66, 66, 66);
+    height: 80px;
+    width: 100%;
+}
+
+.nav-footer {
+    height: 100%;
+    border: dashed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-menu{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+flex-grow: 1;
+margin-left: 5px;
+}
+.main-menu{
+    flex-grow: 4;
+}
+.exit{
+    flex-grow: 1;
+}
+.arrow-up{
+    color: white;
+    display: flex;
+    left: 50px;
+    align-items: center;
 }
