@@ -53,6 +53,7 @@ img {
     position: absolute;
     bottom: 2px;
     left: 1px;
+    padding: 0.2rem;
 }
 
 span {
@@ -170,4 +171,7 @@ footer {
 
 .fa-sharp {
     font-size: 20px;
+}
+span{
+    text-align: center;
 }
