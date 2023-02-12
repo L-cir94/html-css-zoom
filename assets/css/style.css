@@ -22,7 +22,7 @@ body {
     margin-bottom: 100px;
 }
 
-#ico {
+.ico {
     margin: 4px;
 }
 
@@ -107,7 +107,6 @@ footer {
     align-items: center;
     justify-content: flex-end;
     flex-grow: 1;
-    color: red;
     gap: 10px;
 }
 
@@ -158,20 +157,51 @@ footer {
 }
 
 .speaker {
-    background-color: rgb(109, 109, 109);
-    padding: 0.5rem;
+
     border-radius: 5%;
 }
 
 .expand {
-    background-color: rgb(109, 109, 109);
-    padding: 0.5rem;
+
     border-radius: 5%;
 }
 
 .fa-sharp {
     font-size: 20px;
 }
-span{
+
+span {
     text-align: center;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(66, 66, 66);
+}
+
+button:hover {
+    outline: auto;
+}
+
+button:active {
+    background-color: rgb(109, 109, 109);
+}
+
+#end {
+    color: red;
+    background-color: rgb(109, 109, 109);
+}
+
+button:active  {
+    background-color: rgb(66, 66, 66);
+}
+.freccia-su{
+    color:white;
 }
